@@ -1,0 +1,54 @@
+.TweetBox{
+    padding-bottom: 10px;
+    border-bottom: 6px solid var(--bg);
+    padding-right: 10px;
+}
+.TweetBox form{
+display:flex;
+flex-direction:column;
+}
+.TweetInputBox{
+    display:flex;
+    padding: 20px;
+}
+.TweetInputBox input{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 70%;
+    height: 35px;
+    border-bottom: 0.9px solid var(--bg)!important;
+}
+.TweetInput_ForImgURL{
+    width: 55%;
+    display:flex;
+    justify-content: start;
+    height: 20px !important;
+    margin-top: 0px  !important;
+    margin-left: 70px !important;
+    border-bottom: 0.9px solid var(--bg)!important;
+    padding: 10px;
+}
+.TweetBoxBtn{
+background:var(--main) !important;
+color: #fff !important;
+font-weight: 900 !important;
+width:40px !important;
+height: 20px !important;
+margin-top: 0px  !important;
+margin-left: auto !important;
+border-radius: 30px !important;
+text-transform: inherit !important;
+}
+@media screen and (max-width: 1200px) {
+    .TweetInput_ForImgURL{
+        width: 55%;
+        display:flex;
+        justify-content: start;
+        height: 20px !important;
+        margin-top: 0px  !important;
+        margin-left: 70px !important;
+        border-bottom: 0.9px solid var(--bg)!important;
+  
+    }
+    }

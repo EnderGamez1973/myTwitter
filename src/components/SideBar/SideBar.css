@@ -1,0 +1,34 @@
+.SideBar{
+    border-right: 1px solid var(--bg) !important;
+    flex:0.4;
+    margin-top:0 ;
+    padding-left:-10px;
+    padding-right: 50px;
+    font-size: 25px !important;
+}
+.ImTwitter_SideBar{
+    color:var(--main);
+    font-size: 30px !important;
+    cursor:pointer;
+    margin-right:160px;
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 1200px) {
+    .SideBar{
+        align-items: start;
+        cursor: pointer;
+        margin-top: 0px;
+        margin-bottom: 47px;
+        margin-left: -10;
+        padding-right:auto;
+        max-width: auto;
+    }
+    .ImTwitter_SideBar{
+        color:var(--main);
+        font-size: 30px !important;
+        cursor:pointer;
+        margin-right:0px;
+        margin-bottom: 6px;
+    }
+
+}
