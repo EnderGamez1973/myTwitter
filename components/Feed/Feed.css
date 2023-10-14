@@ -1,0 +1,48 @@
+.Feed{
+    flex:0.4;
+    min-width: fit-content;
+    overflow-y:scroll;
+    border-right: 1px solid var(--bg) !important;
+}
+.Feed::-webkit-scrollbar{
+    display:none;
+}
+.Feed .FeedHeader{
+    top:0;
+    background-color: #fff;
+    z-index: 10000;
+    padding: 15px 20px;
+    border: 1px solid var(--bg);
+}
+.Feed .FeedHeader h3{
+    font-weight: 900;
+    font-size: 22px;
+    cursor:pointer;
+    font-family: Arial Narrow;
+}
+@media screen and (max-width: 1200px) {
+    .Feed{
+        flex:1;
+        min-width:65%;
+        overflow-y:scroll;
+        border-right: 1px solid var(--bg) !important;
+        flex-wrap: wrap;
+    }
+    .Feed::-webkit-scrollbar{
+        overflow: auto;
+    }
+    .Feed .FeedHeader{
+        top:0;
+        background-color: #fff;
+        z-index: 10000;
+        padding: 15px 20px;
+        border: 1px solid var(--bg);
+    }
+    .Feed .FeedHeader h3{
+        font-weight: 900;
+        font-size: 22px;
+        cursor:pointer;
+        font-family: Arial Narrow;
+    }
+
+}

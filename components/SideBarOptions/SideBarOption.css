@@ -1,0 +1,38 @@
+.SideBarOptions{
+  
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-family: Arial Narrow;
+    font-size:25px;
+}
+.SideBarOptions:hover{
+    background: var(--bg);
+    border-radius: 29px;
+    color: var(--main);
+    background-clip: border-box;
+}
+.SideBarOptions h2{
+    font-size: 18px;
+    margin-right: 0px;
+    font-weight: 800;
+
+}
+.SideBarOptionActive{
+    color: var(--main);
+}
+@media screen and (max-width: 1200px) {
+    .SideBarOptions{
+        display:flex;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 44px;
+        margin-left: 0;
+
+    }
+    .SideBarOptions h2{
+        display: none;        
+    }
+}

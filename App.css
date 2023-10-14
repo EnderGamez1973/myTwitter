@@ -1,0 +1,49 @@
+:root{
+  --main:#2ea4ed;
+  --bg: #e4e6e7;
+ }
+ *::selection{
+   background: var(--main);
+   color: #000;}
+ .MainApp{
+  width: -200px;
+  margin-left:auto;
+   display:flex;
+   height:100vh;
+   max-width: 1200px;
+
+   margin-right: auto;
+   padding:0px;
+ }
+ ::-webkit-scrollbar{
+   width: 0px;
+ }
+ ::-webkit-scrollbar-thumb{
+   background: var(--main);
+ }
+ ::-webkit-scrollbar-track{
+   background: #000;
+ }
+ .mostrarsesion{
+  overflow: visible;
+ }
+
+ @media screen and (max-width: 1200px) {
+  .MainApp{
+    
+      align-items: start;
+      cursor: pointer;
+      margin-left: 0;
+      padding-right:0px;
+      max-width: 63%;
+  }
+  ::-webkit-scrollbar{
+    min-width:100%;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: var(--main);
+  }
+  ::-webkit-scrollbar-track{
+    background: #000;
+  }
+}
